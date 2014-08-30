@@ -22,16 +22,20 @@ footer {
     text-align: center;
     text-transform: uppercase;
 }
-
+.alt{
+   margin-top: 5px;
+}
 
 .fb .btn {
   background-color: #3B5998;
   border-color: #9F418F;
+  margin-top: 5px;
 }
 
 .gmail .btn{
   background-color: #dd4b39;
   border-color: #dd4b39;
+  margin-right: 23px;
 }
 /******************************************
 			 Navigation Modification
@@ -156,6 +160,12 @@ footer {
 }
 
 
+
+.signup{
+  padding-top:15px; 
+  font-size:24px
+}
+
 /*********************************
 	Some Bootstrap Override
 *********************************/
@@ -177,7 +187,7 @@ footer {
 
 hr {
 	border: none;
-  border-top: 3px solid #FFFFFF;
+  border-top: 3px solid black;
 }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
@@ -191,6 +201,12 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 	height: 40px;
     line-height: 40px;
     margin-bottom: 27px;
+}
+
+.btn{
+   font-size: 16px;
+   padding: 10px;
+   margin-top: 5px;
 }
 
 .btn-theme {
