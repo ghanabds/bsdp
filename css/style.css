@@ -91,18 +91,30 @@ footer {
 /*********************************
   Carousel Bootstrap Override
 *********************************/
-
-.intro{
-  padding-bottom: 400px;
+/*.pic{
+  background-image: url("/img/bg_02.jpg");
+  margin:0px auto;padding:0px;
+    width:auto;
+    background-repeat:repeat-y;
+    padding: 0px 25px 4px 25px;
 }
+*/
 
-.wordwrap { 
+
+@media (min-width: 1200px)  {
+  .intro{
+   bottom:259px;
+  }
+}
+.wordwrap {
+   font-size: 19px; 
    white-space: pre-wrap;      /* CSS3 */   
    white-space: -moz-pre-wrap; /* Firefox */    
    white-space: -pre-wrap;     /* Opera <7 */   
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
    border-radius: 0px;
+
    /*width:205px;*/
 }
 
@@ -218,7 +230,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
     border-radius: 4px 4px 4px 4px;
     cursor: pointer;
     display: inline-block;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 17px;
     margin-bottom: 5px;
@@ -274,7 +286,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
  Main Sections and Content Area
 *********************************/
 #page1 {
-  background: #000000 center center fixed;
+  background: #fff center center fixed;
   opacity: .9; 
 }
 
@@ -380,7 +392,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 }
 
 .page img {
-	margin: 5px auto;
+	margin: -3px auto;
 	border-radius: 4px;
 }
 
@@ -422,6 +434,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 
 @media (max-width: 768px) {
   .container {
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
   }

@@ -1,0 +1,12 @@
+<div class="carousel-caption intro ">
+                                            <h1>Business Development Services</h1>
+                                            <p class=""> Get help from a registered Business Development Service Provider in your area Now!</p>
+                                            <div class=" row container  col-xs-12 ">
+                                                <div class=" col-xs-offset-2 col-xs-4">
+                                                    <a href="signup.html" class="wordwrap btn btn-theme ">Provide BUsiness Development Services</a>
+                                                </div>
+                                                <div class=" col-xs-offset-1 col-xs-4">
+                                                    <a href="search.html" class=" wordwrap btn btn-theme"> &nbsp  Get  &nbsp  BUsiness Development Services</a>
+                                                </div>
+                                            </div>
+                                        </div>
